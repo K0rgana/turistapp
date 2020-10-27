@@ -10,7 +10,7 @@ function Landing() {
     return (
         <div id="page-landing">
             <div className="content-wrapper">
-                <img src={logoImg} alt="happy logo" />
+                <img src={logoImg} alt="Turistapp logo" />
 
                 <main>
                     <h1>Descubra lugares incríveis</h1>

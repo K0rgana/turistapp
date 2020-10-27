@@ -37,7 +37,7 @@
 #page-map .leaflet-container {
     z-index: 5;
 }
-#page-map .create-orphanage {
+#page-map .create-attraction {
     position: absolute;
     right: 40px;
     bottom: 40px;
@@ -55,6 +55,46 @@
 
     transition: background 0.2s;
 }
-#page-map .create-orphanage:hover {
+#page-map .create-attraction:hover {
     background: #f3315c;
+}
+#page-map .map-popup .leaflet-popup-content-wrapper {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: none;
+}
+#page-map .map-popup .leaflet-popup-content {
+    color: #f3315c;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#page-map .map-popup .leaflet-popup-content a {
+    width: 40px;
+    height: 40px;
+    background: #f3315c;
+    box-shadow: 17.286px 27.6589px 41.488px rgba(23, 142, 166, 0.16);
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page-map .map-popup .leaflet-popup-content a {
+    width: 40px;
+    height: 40px;
+    background: #f3315c;
+    box-shadow: 17.286px 27.6589px 41.488px rgba(23, 142, 166, 0.16);
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page-map .map-popup .leaflet-popup-tip-container {
+    display: none;
 }
